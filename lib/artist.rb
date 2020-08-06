@@ -40,6 +40,6 @@ class Artist
 
   def to_param
     name.downcase.gsub(' ', '-')
-    binding.pry
+   # binding.pry
   end
 end
